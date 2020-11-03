@@ -1,13 +1,16 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 
-/**
- *
- * @author TARUC
- */
 public class DemoArray {
-    
+    public static void main(String[] args) {
+        
+        int [] a = new int[10];
+        
+        
+        for(int value: a)   
+            value = 100;            // this statement will alter the original data 
+             
+        for(int value : a)          // to display the data in the array 
+           System.out.println(value);   
+        
+        
+    }
 }
