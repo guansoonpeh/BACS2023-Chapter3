@@ -9,9 +9,9 @@ public class PassingArrayDemo {
     public static void main(String[] args) {
         
         int x = 0;
-
+        int []y = {0,0,0};
         
-        doSomething(x, new int[]{1,2,3,4});
+        doSomething(x, y);
         
         System.out.println(x);    //?? 0
         System.out.println(y[0]); //?? 100
